@@ -1,15 +1,6 @@
-# State-of-the-art result for all Machine Learning Problems
+# State-of-the-art results for deep learning tasks
 
-### LAST UPDATE: 6th November 2018
-
-### NEWS: I am looking for a Collaborator esp who does research in NLP, Computer Vision and Reinforcement learning. If you are not a researcher, but you are willing, contact me. Email me: yxt.stoaml@gmail.com
-
-This repository provides state-of-the-art (SoTA) results for all machine learning problems. We do our best to keep this repository up to date.  If you do find a problem's SoTA result is out of date or missing, please raise this as an issue (with this information: research paper name, dataset, metric, source code and year). We will fix it immediately.
-
-You can also submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe_fFZVCeCVRGGgOQIpoQSXY7mZWynsx7g6WxZEVpO5vJioUA/viewform?embedded=true) if you are new to Github.
-
-This is an attempt to make  one stop for all types of machine learning problems state of the art result. I can not do this alone. I need help from everyone. Please submit the Google form/raise an issue if you find SOTA result for a dataset.  Please share this on Twitter, Facebook, and other social media.
-
+This repository lists the state-of-the-art results for mainstream deep learning tasks. We do our best to keep it up to date. If you do find a task's SotA result is outdated or missing, please raise an issue (with: title of paper, dataset, metric, source code, and year). 
 
 This summary is categorized into:
 
@@ -584,4 +575,4 @@ USING MONOLINGUAL CORPORA ONLY</a></td>
   </tbody>
 </table>  
 
-Email: yxt.stoaml@gmail.com
+Email: cmsflash99@gmail.com
