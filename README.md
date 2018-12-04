@@ -14,11 +14,9 @@ This summary is categorized into:
     - Speech
     - Computer Vision
     - [NLP](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/blob/master/README.md#nlp-1)
-- [Transfer Learning](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#transfer-learning)
-- [Reinforcement Learning](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#reinforcement-learning)
+- [Contact](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/blob/master/README.md#contact)
 
 ## Supervised Learning
-
 
 ### NLP
 #### 1. Language Modelling
@@ -530,49 +528,5 @@ USING MONOLINGUAL CORPORA ONLY</a></td>
   </tbody>
 </table>  
 
-## Transfer Learning
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-       <tr> 
-      <td><a href='https://arxiv.org/pdf/1706.05137.pdf'>One Model To Learn Them All</a></td>
-      <td align="left"> <ul><li> WMT EN → DE </li><li> WMT EN → FR (BLEU) </li><li> ImageNet (top-5 accuracy) </li></ul></td>
-      <td align="left"> <ul><li> BLEU: 21.2 </li> <li> BLEU:30.5  </li><li> 86% </li></ul> </td>
-      <td align="left"><ul><li><a href='https://github.com/tensorflow/tensor2tensor'>Tensorflow</a></ul></li></td>
-      <td align="left">2017</td>    
-    </tr>
-      
-
-  </tbody>
-</table>  
-
-
-
-## Reinforcement Learning
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-       <tr> 
-      <td><a href='http://www.gwern.net/docs/rl/2017-silver.pdf'>Mastering the game of Go without human knowledge</a></td>
-      <td align="left"> the game of Go </td>
-      <td align="left"> ElO Rating: 5185</td>
-      <td align="left"><ul><li><a href=https://github.com/gcp/leela-zero>C++</a></ul></li></td>
-      <td align="left">2017</td>    
-    </tr>
-      
-
-  </tbody>
-</table>  
-
+## Contact
 Email: cmsflash99@gmail.com
