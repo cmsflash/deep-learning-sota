@@ -4,17 +4,17 @@ This repository lists the state-of-the-art results for mainstream deep learning 
 
 This summary is categorized into:
 
-- [Supervised Learning](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#supervised-learning)
-    - [Speech](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#speech)
-    - [Computer Vision](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#computer-vision)
-    - [NLP](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#nlp)
-- [Semi-supervised Learning](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#semi-supervised-learning)
+- [Supervised Learning](https://github.com/cms-flash/deep-learning-sota#supervised-learning)
+    - [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
+    - [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
+    - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
+- [Semi-supervised Learning](https://github.com/cms-flash/deep-learning-sota#semi-supervised-learning)
     - Computer Vision
-- [Unsupervised Learning](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems#unsupervised-learning)
+- [Unsupervised Learning](https://github.com/cms-flash/deep-learning-sota#unsupervised-learning)
     - Speech
     - Computer Vision
-    - [NLP](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/blob/master/README.md#nlp-1)
-- [Contact](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems/blob/master/README.md#contact)
+    - [NLP](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#nlp-1)
+- [Contact](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#contact)
 
 ## Supervised Learning
 
