@@ -5,20 +5,21 @@ This repository lists the state-of-the-art results for mainstream deep learning 
 This summary is categorized into:
 
 - [Supervised Learning](https://github.com/cms-flash/deep-learning-sota#supervised-learning)
-    - [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
-    - [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
-    - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
+  - [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
+  - [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
+  - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
 - [Semi-supervised Learning](https://github.com/cms-flash/deep-learning-sota#semi-supervised-learning)
-    - Computer Vision
+  - Computer Vision
 - [Unsupervised Learning](https://github.com/cms-flash/deep-learning-sota#unsupervised-learning)
-    - Speech
-    - Computer Vision
-    - [NLP](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#nlp-1)
+  - Speech
+  - Computer Vision
+  - [NLP](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#nlp-1)
 - [Contact](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#contact)
 
 ## Supervised Learning
 
 ### NLP
+
 #### 1. Language Modelling
 
 <table>
@@ -34,28 +35,28 @@ This summary is categorized into:
       <td><a href='https://arxiv.org/pdf/1711.03953.pdf'>BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL </a></td>
       <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
       <td align="left"><ul><li> Perplexity: 47.69 </li><li> Perplexity: 40.68 </li></ul></td>
-      <td align="left"><a href='https://github.com/zihangdai/mos'>Pytorch </a></td>
+      <td align="left"><a href='https://github.com/zihangdai/mos'>PyTorch </a></td>
       <td align="left">2017</td>   
     </tr>
     <tr>
       <td><a href='https://arxiv.org/pdf/1709.07432.pdf'>DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS </a></td>
       <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
       <td align="left"><ul><li> Perplexity: 51.1 </li><li> Perplexity: 44.3 </li></ul></td>
-      <td align="left"><a href='https://github.com/benkrause/dynamic-evaluation'>Pytorch </a></td>
+      <td align="left"><a href='https://github.com/benkrause/dynamic-evaluation'>PyTorch </a></td>
       <td align="left">2017</td>   
     </tr>
     <tr>
       <td><a href='https://arxiv.org/pdf/1708.02182.pdf'>Averaged Stochastic Gradient  Descent <br/> with Weight Dropped LSTM or QRNN </a></td>
       <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
       <td align="left"><ul><li> Perplexity: 52.8 </li><li> Perplexity: 52.0 </li></ul></td>
-      <td align="left"><a href='https://github.com/salesforce/awd-lstm-lm'>Pytorch </a></td>
+      <td align="left"><a href='https://github.com/salesforce/awd-lstm-lm'>PyTorch </a></td>
       <td align="left">2017</td>   
     </tr>
     <tr>
       <td><a href='https://arxiv.org/pdf/1711.00066.pdf'>FRATERNAL DROPOUT </a></td>
       <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
       <td align="left"><ul><li> Perplexity: 56.8 </li><li> Perplexity: 64.1 </li></ul></td>
-      <td align="left"> <a href='https://github.com/kondiz/fraternal-dropout'> Pytorch </a>  </td>
+      <td align="left"> <a href='https://github.com/kondiz/fraternal-dropout'> PyTorch </a>  </td>
       <td align="left">2017</td>   
     </tr>
         <tr>
@@ -67,9 +68,6 @@ This summary is categorized into:
     </tr>
   </tbody>
 </table>
-
-
-
 
 #### 2. Machine Translation
 
@@ -94,7 +92,7 @@ MACHINE TRANSLATION</a></td>
       <td><a href='https://arxiv.org/abs/1706.03762'>Attention Is All You Need</a></td>
       <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
       <td align="left"> <ul><li>  BLEU: 41.0 </li><li>   BLEU: 28.4 </li></ul> </td>
-      <td align="left"> <ul><li><a href='https://github.com/jadore801120/attention-is-all-you-need-pytorch'>PyTorch</a> </li><li> <a href='https://github.com/tensorflow/tensor2tensor'>Tensorflow</a></li></ul></td>
+      <td align="left"> <ul><li><a href='https://github.com/jadore801120/attention-is-all-you-need-PyTorch'>PyTorch</a> </li><li> <a href='https://github.com/tensorflow/tensor2tensor'>Tensorflow</a></li></ul></td>
       <td align="left">2017</td>    
     </tr>
      <tr>
@@ -113,7 +111,7 @@ NEURAL MACHINE TRANSLATION</a></td>
       <td align="left">2017</td>    
     </tr>
   </tbody>
-</table>  
+</table>
 
 #### 3. Text Classification
 
@@ -143,12 +141,13 @@ NEURAL MACHINE TRANSLATION</a></td>
   </tbody>
 </table>
 
-#### 4. Natural Language Inference 
-Leader board: 
+#### Natural Language Inference
 
-[Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/)
-
-[MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)
+| Dataset                                                                               | Type     | Accuracy | Paper                                                                                                                                                                                  | Code |
+| ------------------------------------------------------------------------------------- | -------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Single   | 89.9%    | [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) |      |
+| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
+| [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
 
 <table>
   <tbody>
@@ -170,17 +169,18 @@ Leader board:
       <td><a href=https://arxiv.org/pdf/1810.04805.pdf> BERT-LARGE (ensemble) </a></td>
       <td align="left">Multi-Genre Natural Language Inference (MNLI)</td>
       <td align="left"><ul><li>Matched accuracy: 86.7</li><li>Mismatched accuracy: 85.9</td>
-      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/pytorch-pretrained-BERT'>PyTorch</a></li> </td>
+      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/PyTorch-pretrained-BERT'>PyTorch</a></li> </td>
       <td align="left">2018</td>
   </tr>
   </tbody>
 </table>
 
-
 #### 5. Question Answering
+
 Leader Board
 
 [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
+
 <table>
   <tbody>
     <tr>
@@ -194,14 +194,14 @@ Leader Board
       <td><a href='https://arxiv.org/pdf/1810.04805.pdf'> BERT-LARGE (ensemble) </a></td>
       <td align="left">The Stanford Question Answering Dataset</td>
       <td align="left"><ul><li> Exact Match: 87.4 </li><li> F1: 93.2 </li></ul></td>
-      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/pytorch-pretrained-BERT'>PyTorch</a> </td>
+      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/PyTorch-pretrained-BERT'>PyTorch</a> </td>
       <td align="left">2018</td>    
   </tr>
   </tbody>
 </table>
 
-
 #### 6. Named entity recognition
+
 <table>
   <tbody>
     <tr>
@@ -223,18 +223,16 @@ Leader Board
 
 #### 7. Abstractive Summarization
 
-Research Paper | Datasets  | Metric | Source Code | Year  
------------- | ------------- | ------------ | ------------- | -------------  
-[Cutting-off redundant repeating generations </br> for neural abstractive summarization](https://aclanthology.info/pdf/E/E17/E17-2047.pdf) | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: **32.28** </li><li> ROUGE-2: 10.54 </li><li>ROUGE-L: **27.80** </li></ul><li>Gigaword</li><ul><li> ROUGE-1: **36.30** </li><li> ROUGE-2: 17.31 </li><li>ROUGE-L: **33.88** </li></ul></ul> | NOT YET AVAILABLE | 2017
-[Convolutional Sequence to Sequence](https://arxiv.org/pdf/1705.03122.pdf) | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: 33.44 </li><li> ROUGE-2: **10.84** </li><li>ROUGE-L: 26.90 </li></ul><li>Gigaword</li><ul><li> ROUGE-1: 35.88 </li><li> ROUGE-2: 27.48 </li><li>ROUGE-L: 33.29 </li></ul></ul> | [PyTorch](https://github.com/facebookresearch/fairseq-py) | 2017
-
+| Research Paper                                                                                                                             | Datasets                                    | Metric                                                                                                                                                                                                                            | Source Code                                               | Year |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---- |
+| [Cutting-off redundant repeating generations </br> for neural abstractive summarization](https://aclanthology.info/pdf/E/E17/E17-2047.pdf) | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: **32.28** </li><li> ROUGE-2: 10.54 </li><li>ROUGE-L: **27.80** </li></ul><li>Gigaword</li><ul><li> ROUGE-1: **36.30** </li><li> ROUGE-2: 17.31 </li><li>ROUGE-L: **33.88** </li></ul></ul> | NOT YET AVAILABLE                                         | 2017 |
+| [Convolutional Sequence to Sequence](https://arxiv.org/pdf/1705.03122.pdf)                                                                 | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: 33.44 </li><li> ROUGE-2: **10.84** </li><li>ROUGE-L: 26.90 </li></ul><li>Gigaword</li><ul><li> ROUGE-1: 35.88 </li><li> ROUGE-2: 27.48 </li><li>ROUGE-L: 33.29 </li></ul></ul>             | [PyTorch](https://github.com/facebookresearch/fairseq-py) | 2017 |
 
 #### 8. Dependency Parsing
 
-Research Paper | Datasets  | Metric | Source Code | Year  
------------- | ------------- | ------------ | ------------- | -------------  
-[Globally Normalized Transition-Based Neural Networks](https://arxiv.org/pdf/1603.06042.pdf) | <ul><li>Final CoNLL ’09 dependency parsing </li></ul> | <ul><li> 94.08% UAS accurancy</li> <li>92.15% LAS accurancy</li></ul> | <ul><li>[SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) </li></ul>| <ul><li>2017</li></ul>
-
+| Research Paper                                                                               | Datasets                                              | Metric                                                                | Source Code                                                                                         | Year                   |
+| -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------- |
+| [Globally Normalized Transition-Based Neural Networks](https://arxiv.org/pdf/1603.06042.pdf) | <ul><li>Final CoNLL ’09 dependency parsing </li></ul> | <ul><li> 94.08% UAS accurancy</li> <li>92.15% LAS accurancy</li></ul> | <ul><li>[SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) </li></ul> | <ul><li>2017</li></ul> |
 
 ### Computer Vision
 
@@ -281,20 +279,20 @@ Research Paper | Datasets  | Metric | Source Code | Year
     <tr>
       <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
       <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100 </li> <li> Fashion-MNIST </li> </ul></td>
-      <td align="left"> <ul><li> Test Error: 3.08% </li>
+      <td align="left"> <ul><li> Test Error: 3.08% </li>
           <li> Test Error: 17.73% </li>
           <li> Test Error: 3.65% </li>
           </ul> </td>
-      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> Pytorch </td>
+      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
       <td align="left">2017</td>    
     </tr>
     <tr>
       <td><a href='https://arxiv.org/abs/1709.07634'> EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks </a></td>
       <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100 </li> </ul></td>
-      <td align="left"> <ul><li> Test Error: 3.56% </li>
+      <td align="left"> <ul><li> Test Error: 3.56% </li>
           <li> Test Error: 16.53% </li>
           </ul> </td>
-      <td align="left"> <a href='https://github.com/D-X-Y/EraseReLU'> Pytorch </td>
+      <td align="left"> <a href='https://github.com/D-X-Y/EraseReLU'> PyTorch </td>
       <td align="left">2017</td>    
     </tr>
     <tr>
@@ -329,6 +327,7 @@ Research Paper | Datasets  | Metric | Source Code | Year
 </table>
 
 #### 2. Instance Segmentation
+
 <table>
   <tbody>
     <tr>
@@ -349,6 +348,7 @@ Research Paper | Datasets  | Metric | Source Code | Year
 </table>
 
 #### 3. Visual Question Answering
+
 <table>
   <tbody>
     <tr>
@@ -369,6 +369,7 @@ Research Paper | Datasets  | Metric | Source Code | Year
 </table>
 
 #### 4. Person Re-identification
+
 <table>
   <tbody>
     <tr>
@@ -381,18 +382,20 @@ Research Paper | Datasets  | Metric | Source Code | Year
     <tr>
       <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
       <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> <a href='https://github.com/zhunzhong07/person-re-ranking'> CUHK03-new-protocol </a> </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> </ul></td>
-      <td align="left"> <ul><li> Rank-1: 89.13 mAP: 83.93 </li>
-          <li> Rank-1: 84.02 mAP: 78.28 </li>
-          <li> labeled (Rank-1: 63.93 mAP: 65.05) detected (Rank-1: 64.43 mAP: 64.75) </li>
+      <td align="left"> <ul><li> Rank-1: 89.13 mAP: 83.93 </li>
+          <li> Rank-1: 84.02 mAP: 78.28 </li>
+          <li> labeled (Rank-1: 63.93 mAP: 65.05) detected (Rank-1: 64.43 mAP: 64.75) </li>
           </ul> </td>
-      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> Pytorch </td>
+      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
       <td align="left">2017</td>    
     </tr>
   </tbody>
 </table>
 
 ### Speech
+
 [Speech SOTA](https://github.com/syhw/wer_are_we)
+
 #### 1. ASR
 
 <table>
@@ -421,9 +424,10 @@ Research Paper | Datasets  | Metric | Source Code | Year
   </tbody>
 </table>
 
-
 ## Semi-supervised Learning
+
 #### Computer Vision
+
 <table>
   <tbody>
     <tr>
@@ -460,22 +464,24 @@ Semi-supervised Learning </a></td>
       <td><a href='https://arxiv.org/pdf/1701.07717.pdf'> Unlabeled Samples Generated by GAN
 Improve the Person Re-identification Baseline in vitro </a></td>
       <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> CUHK-03 </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> <li> <a href='http://www.vision.caltech.edu/visipedia/CUB-200-2011.html'> CUB-200-2011 </a></li></ul></td>
-      <td align="left"> <ul><li> Rank-1: 83.97 mAP: 66.07 </li>
-          <li> Rank-1: 84.6 mAP: 87.4 </li>
-          <li> Rank-1: 67.68 mAP: 47.13 </li>
-          <li> Test Accuracy: 84.4 </li>
+      <td align="left"> <ul><li> Rank-1: 83.97 mAP: 66.07 </li>
+          <li> Rank-1: 84.6 mAP: 87.4 </li>
+          <li> Rank-1: 67.68 mAP: 47.13 </li>
+          <li> Test Accuracy: 84.4 </li>
           </ul> </td>
       <td align="left"> <a href='https://github.com/layumi/Person-reID_GAN'> Matconvnet </td>
       <td align="left">2017</td>    
     </tr>
-      
+
   </tbody>
 </table>
 
 ## Unsupervised Learning
 
 #### Computer Vision
+
 ##### 1. Generative Model
+
 <table>
   <tbody>
     <tr>
@@ -498,7 +504,6 @@ Improve the Person Re-identification Baseline in vitro </a></td>
 ### NLP
 
 #### Machine Translation
-
 
 <table>
   <tbody>
@@ -523,10 +528,11 @@ USING MONOLINGUAL CORPORA ONLY</a></td>
       <td align="left"><ul><li><a href=''>NOT FOUND</a></ul></li></td>
       <td align="left">2018</td>    
     </tr>
-     
+
 
   </tbody>
-</table>  
+</table>
 
 ## Contact
+
 Email: cmsflash99@gmail.com
