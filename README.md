@@ -13,8 +13,8 @@ This summary is categorized into:
 - [Unsupervised Learning](https://github.com/cms-flash/deep-learning-sota#unsupervised-learning)
   - Speech
   - Computer Vision
-  - [NLP](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#nlp-1)
-- [Contact](https://github.com/cms-flash/deep-learning-sota/blob/master/README.md#contact)
+  - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp-1)
+- [Contact](https://github.com/cms-flash/deep-learning-sota#contact)
 
 ## Supervised Learning
 
