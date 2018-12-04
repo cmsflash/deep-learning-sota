@@ -20,7 +20,7 @@ This summary is categorized into:
 
 ### NLP
 
-#### 1. Language Modelling
+#### Language Modelling
 
 <table>
   <tbody>
@@ -69,7 +69,7 @@ This summary is categorized into:
   </tbody>
 </table>
 
-#### 2. Machine Translation
+#### Machine Translation
 
 <table>
   <tbody>
@@ -113,7 +113,7 @@ NEURAL MACHINE TRANSLATION</a></td>
   </tbody>
 </table>
 
-#### 3. Text Classification
+#### Text Classification
 
 <table>
   <tbody>
@@ -149,7 +149,7 @@ NEURAL MACHINE TRANSLATION</a></td>
 | [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
 | [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
 
-#### 5. Question Answering
+#### Question Answering
 
 Leader Board
 
@@ -174,7 +174,7 @@ Leader Board
   </tbody>
 </table>
 
-#### 6. Named entity recognition
+#### Named entity recognition
 
 <table>
   <tbody>
@@ -195,14 +195,14 @@ Leader Board
   </tbody>
 </table>
 
-#### 7. Abstractive Summarization
+#### Abstractive Summarization
 
 | Research Paper                                                                                                                             | Datasets                                    | Metric                                                                                                                                                                                                                            | Source Code                                               | Year |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---- |
 | [Cutting-off redundant repeating generations </br> for neural abstractive summarization](https://aclanthology.info/pdf/E/E17/E17-2047.pdf) | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: **32.28** </li><li> ROUGE-2: 10.54 </li><li>ROUGE-L: **27.80** </li></ul><li>Gigaword</li><ul><li> ROUGE-1: **36.30** </li><li> ROUGE-2: 17.31 </li><li>ROUGE-L: **33.88** </li></ul></ul> | NOT YET AVAILABLE                                         | 2017 |
 | [Convolutional Sequence to Sequence](https://arxiv.org/pdf/1705.03122.pdf)                                                                 | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: 33.44 </li><li> ROUGE-2: **10.84** </li><li>ROUGE-L: 26.90 </li></ul><li>Gigaword</li><ul><li> ROUGE-1: 35.88 </li><li> ROUGE-2: 27.48 </li><li>ROUGE-L: 33.29 </li></ul></ul>             | [PyTorch](https://github.com/facebookresearch/fairseq-py) | 2017 |
 
-#### 8. Dependency Parsing
+#### Dependency Parsing
 
 | Research Paper                                                                               | Datasets                                              | Metric                                                                | Source Code                                                                                         | Year                   |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -210,7 +210,7 @@ Leader Board
 
 ### Computer Vision
 
-#### 1. Classification
+#### Classification
 
 <table>
   <tbody>
@@ -300,7 +300,7 @@ Leader Board
   </tbody>
 </table>
 
-#### 2. Instance Segmentation
+#### Instance Segmentation
 
 <table>
   <tbody>
@@ -321,7 +321,7 @@ Leader Board
   </tbody>
 </table>
 
-#### 3. Visual Question Answering
+#### Visual Question Answering
 
 <table>
   <tbody>
@@ -342,7 +342,7 @@ Leader Board
   </tbody>
 </table>
 
-#### 4. Person Re-identification
+#### Person Re-identification
 
 <table>
   <tbody>
@@ -370,7 +370,7 @@ Leader Board
 
 [Speech SOTA](https://github.com/syhw/wer_are_we)
 
-#### 1. ASR
+#### ASR
 
 <table>
   <tbody>
@@ -454,7 +454,7 @@ Improve the Person Re-identification Baseline in vitro </a></td>
 
 #### Computer Vision
 
-##### 1. Generative Model
+##### Generative Model
 
 <table>
   <tbody>
