@@ -149,32 +149,6 @@ NEURAL MACHINE TRANSLATION</a></td>
 | [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
 | [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1709.04348.pdf'> NATURAL LANGUAGE INFERENCE OVER INTERACTION SPACE </a></td>
-      <td align="left">Stanford Natural Language Inference (SNLI)</td>
-      <td align="left">Accuracy: 88.9</td>
-      <td align="left"><a href='https://github.com/YichenGong/Densely-Interactive-Inference-Network'>Tensorflow</a> </td>
-      <td align="left">2017</td>
-  </tr>
-    <tr>
-      <td><a href=https://arxiv.org/pdf/1810.04805.pdf> BERT-LARGE (ensemble) </a></td>
-      <td align="left">Multi-Genre Natural Language Inference (MNLI)</td>
-      <td align="left"><ul><li>Matched accuracy: 86.7</li><li>Mismatched accuracy: 85.9</td>
-      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/PyTorch-pretrained-BERT'>PyTorch</a></li> </td>
-      <td align="left">2018</td>
-  </tr>
-  </tbody>
-</table>
-
 #### 5. Question Answering
 
 Leader Board
