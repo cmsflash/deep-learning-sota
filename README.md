@@ -4,23 +4,14 @@ This repository lists the state-of-the-art results for mainstream deep learning 
 
 This summary is categorized into:
 
-- [Supervised Learning](https://github.com/cms-flash/deep-learning-sota#supervised-learning)
-  - [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
-  - [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
-  - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
-- [Semi-supervised Learning](https://github.com/cms-flash/deep-learning-sota#semi-supervised-learning)
-  - Computer Vision
-- [Unsupervised Learning](https://github.com/cms-flash/deep-learning-sota#unsupervised-learning)
-  - Speech
-  - Computer Vision
-  - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp-1)
+- [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
+- [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
+- [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
 - [Contact](https://github.com/cms-flash/deep-learning-sota#contact)
 
-## Supervised Learning
+## NLP
 
-### NLP
-
-#### Language Modelling
+### Language Modelling
 
 <table>
   <tbody>
@@ -69,7 +60,7 @@ This summary is categorized into:
   </tbody>
 </table>
 
-#### Machine Translation
+### Machine Translation
 
 <table>
   <tbody>
@@ -113,7 +104,7 @@ NEURAL MACHINE TRANSLATION</a></td>
   </tbody>
 </table>
 
-#### Text Classification
+### Text Classification
 
 <table>
   <tbody>
@@ -141,7 +132,7 @@ NEURAL MACHINE TRANSLATION</a></td>
   </tbody>
 </table>
 
-#### Natural Language Inference
+### Natural Language Inference
 
 | Dataset                                                                               | Type     | Accuracy | Paper                                                                                                                                                                                  | Code |
 | ------------------------------------------------------------------------------------- | -------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
@@ -149,7 +140,7 @@ NEURAL MACHINE TRANSLATION</a></td>
 | [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
 | [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
 
-#### Question Answering
+### Question Answering
 
 Leader Board
 
@@ -174,7 +165,7 @@ Leader Board
   </tbody>
 </table>
 
-#### Named entity recognition
+### Named entity recognition
 
 <table>
   <tbody>
@@ -195,22 +186,22 @@ Leader Board
   </tbody>
 </table>
 
-#### Abstractive Summarization
+### Abstractive Summarization
 
 | Research Paper                                                                                                                             | Datasets                                    | Metric                                                                                                                                                                                                                            | Source Code                                               | Year |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---- |
 | [Cutting-off redundant repeating generations </br> for neural abstractive summarization](https://aclanthology.info/pdf/E/E17/E17-2047.pdf) | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: **32.28** </li><li> ROUGE-2: 10.54 </li><li>ROUGE-L: **27.80** </li></ul><li>Gigaword</li><ul><li> ROUGE-1: **36.30** </li><li> ROUGE-2: 17.31 </li><li>ROUGE-L: **33.88** </li></ul></ul> | NOT YET AVAILABLE                                         | 2017 |
 | [Convolutional Sequence to Sequence](https://arxiv.org/pdf/1705.03122.pdf)                                                                 | <ul><li>DUC-2004</li><li>Gigaword</li></ul> | <ul><li>DUC-2004</li><ul><li> ROUGE-1: 33.44 </li><li> ROUGE-2: **10.84** </li><li>ROUGE-L: 26.90 </li></ul><li>Gigaword</li><ul><li> ROUGE-1: 35.88 </li><li> ROUGE-2: 27.48 </li><li>ROUGE-L: 33.29 </li></ul></ul>             | [PyTorch](https://github.com/facebookresearch/fairseq-py) | 2017 |
 
-#### Dependency Parsing
+### Dependency Parsing
 
 | Research Paper                                                                               | Datasets                                              | Metric                                                                | Source Code                                                                                         | Year                   |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------- |
 | [Globally Normalized Transition-Based Neural Networks](https://arxiv.org/pdf/1603.06042.pdf) | <ul><li>Final CoNLL ’09 dependency parsing </li></ul> | <ul><li> 94.08% UAS accurancy</li> <li>92.15% LAS accurancy</li></ul> | <ul><li>[SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) </li></ul> | <ul><li>2017</li></ul> |
 
-### Computer Vision
+## Computer Vision
 
-#### Classification
+### Classification
 
 <table>
   <tbody>
@@ -300,7 +291,7 @@ Leader Board
   </tbody>
 </table>
 
-#### Instance Segmentation
+### Instance Segmentation
 
 <table>
   <tbody>
@@ -321,7 +312,7 @@ Leader Board
   </tbody>
 </table>
 
-#### Visual Question Answering
+### Visual Question Answering
 
 <table>
   <tbody>
@@ -342,7 +333,7 @@ Leader Board
   </tbody>
 </table>
 
-#### Person Re-identification
+### Person Re-identification
 
 <table>
   <tbody>
@@ -366,11 +357,11 @@ Leader Board
   </tbody>
 </table>
 
-### Speech
+## Speech
 
 [Speech SOTA](https://github.com/syhw/wer_are_we)
 
-#### ASR
+### ASR
 
 <table>
   <tbody>
@@ -395,115 +386,6 @@ Leader Board
       <td align="left"> <ul><li>  <a href=''>NOT FOUND</a></li></ul> </td>
       <td align="left">2017</td>    
     </tr>
-  </tbody>
-</table>
-
-## Semi-supervised Learning
-
-#### Computer Vision
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1507.00677.pdf'> DISTRIBUTIONAL SMOOTHINGWITH VIRTUAL ADVERSARIAL TRAINING </a></td>
-      <td align="left"> <ul><li> SVHN </li><li> NORB </li></ul></td>
-      <td align="left"> <ul><li> Test error: 24.63 </li><li> Test error: 9.88 </li></ul> </td>
-      <td align="left"> <a href='https://github.com/takerum/vat'>Theano</a></td>
-      <td align="left">2016</td>    
-    </tr>
-     <tr>
-      <td><a href='https://arxiv.org/pdf/1704.03976.pdf'> Virtual Adversarial Training:
-a Regularization Method for Supervised and
-Semi-supervised Learning </a></td>
-      <td align="left"> <ul><li> MNIST </li></ul></td>
-      <td align="left"> <ul><li> Test error: 1.27 </li></ul> </td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></ul></li> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1706.08249.pdf'> Few Shot Object Detection </a></td>
-      <td align="left"> <ul><li> VOC2007 </li><li> VOC2012 </li></ul></td>
-      <td align="left"> <ul><li> mAP : 41.7 </li><li> mAP : 35.4 </li></ul> </td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></ul></li> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1701.07717.pdf'> Unlabeled Samples Generated by GAN
-Improve the Person Re-identification Baseline in vitro </a></td>
-      <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> CUHK-03 </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> <li> <a href='http://www.vision.caltech.edu/visipedia/CUB-200-2011.html'> CUB-200-2011 </a></li></ul></td>
-      <td align="left"> <ul><li> Rank-1: 83.97 mAP: 66.07 </li>
-          <li> Rank-1: 84.6 mAP: 87.4 </li>
-          <li> Rank-1: 67.68 mAP: 47.13 </li>
-          <li> Test Accuracy: 84.4 </li>
-          </ul> </td>
-      <td align="left"> <a href='https://github.com/layumi/Person-reID_GAN'> Matconvnet </td>
-      <td align="left">2017</td>    
-    </tr>
-
-  </tbody>
-</table>
-
-## Unsupervised Learning
-
-#### Computer Vision
-
-##### Generative Model
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='http://research.nvidia.com/sites/default/files/publications/karras2017gan-paper-v2.pdf'> PROGRESSIVE GROWING OF GANS FOR IMPROVED QUALITY, STABILITY, AND VARIATION </a></td>
-       <td align="left">Unsupervised CIFAR 10</td>
-      <td align="left">Inception score: 8.80 </td>
-      <td align="left"> <a href='https://github.com/tkarras/progressive_growing_of_gans'>Theano</a></td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
-
-### NLP
-
-#### Machine Translation
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-       <tr> 
-      <td><a href='https://arxiv.org/pdf/1711.00043.pdf'>UNSUPERVISED MACHINE TRANSLATION
-USING MONOLINGUAL CORPORA ONLY</a></td>
-      <td align="left"> <ul><li> Multi30k-Task1(en-fr fr-en de-en en-de)  </li></ul></td>
-      <td align="left"> <ul><li> BLEU:(32.76 32.07 26.26 22.74) </li></ul> </td>
-      <td align="left"><ul><li><a href=''>NOT FOUND</a></ul></li></td>
-      <td align="left">2017</td>    
-    </tr>
-        <tr> 
-      <td><a href='https://arxiv.org/pdf/1804.09057.pdf'>Unsupervised Neural Machine Translation with Weight Sharing</a></td>
-      <td align="left"> <ul><li> WMT14(en-fr fr-en)  </li><li> WMT16 (de-en en-de) </li></ul></td>
-      <td align="left"> <ul><li> BLEU:(16.97 15.58) </li> <li> BLEU:(14.62 10.86) </li></ul> </td>
-      <td align="left"><ul><li><a href=''>NOT FOUND</a></ul></li></td>
-      <td align="left">2018</td>    
-    </tr>
-
-
   </tbody>
 </table>
 
