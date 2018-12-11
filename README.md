@@ -4,10 +4,85 @@ This repository lists the state-of-the-art results for mainstream deep learning 
 
 This summary is categorized into:
 
-- [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
 - [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
+- [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
 - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
 - [Contact](https://github.com/cms-flash/deep-learning-sota#contact)
+
+## Computer Vision
+
+### Classification
+
+| Dataset  | Type         | Top-1 accuracy | Method                              | Paper                                                                                                    | Code |
+| -------- | ------------ | -------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
+| ImageNet | ResNet-50    | 78.35%         | ResNet-50+DropBlock+label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+| ImageNet | Single model | 82.52%         | AmoebaNet-B+DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+
+### Instance Segmentation
+
+<table>
+  <tbody>
+    <tr>
+      <th width="30%">Research Paper</th>
+      <th align="center" width="20%">Datasets</th>
+      <th align="center" width="20%">Metric</th>
+      <th align="center" width="20%">Source Code</th>
+      <th align="center" width="10%">Year</th>
+    </tr>
+    <tr>
+      <td><a href='https://arxiv.org/pdf/1703.06870.pdf'>Mask R-CNN</a></td>
+      <td align="left"> <ul><li> COCO  </li></ul></td>
+      <td align="left"> <ul><li> Average Precision: 37.1% </li></ul> </td>
+      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/Detectron'>Detectron (Official Version)</a> </li><li>  <a href='https://github.com/TuSimple/mx-maskrcnn'>MXNet</a> </li><li>  <a href='https://github.com/matterport/Mask_RCNN'>Keras</a> </li><li>  <a href='https://github.com/CharlesShang/FastMaskRCNN'>TensorFlow </a> </li></ul> </td>
+      <td align="left">2017</td>    
+    </tr>
+  </tbody>
+</table>
+
+### Visual Question Answering
+
+<table>
+  <tbody>
+    <tr>
+      <th width="30%">Research Paper</th>
+      <th align="center" width="20%">Datasets</th>
+      <th align="center" width="20%">Metric</th>
+      <th align="center" width="20%">Source Code</th>
+      <th align="center" width="10%">Year</th>
+    </tr>
+    <tr>
+      <td><a href='https://arxiv.org/abs/1708.02711'>Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge</a></td>
+      <td align="left"> <ul><li> VQA  </li></ul></td>
+      <td align="left"> <ul><li> Overall score: 69 </li></ul> </td>
+      <td align="left"> <ul><li>   <a href=''>NOT FOUND</a> </li></ul> </li></ul> </td>
+      <td align="left">2017</td>    
+    </tr>
+  </tbody>
+</table>
+
+### Person Re-identification
+
+<table>
+  <tbody>
+    <tr>
+      <th width="30%">Research Paper</th>
+      <th align="center" width="20%">Datasets</th>
+      <th align="center" width="20%">Metric</th>
+      <th align="center" width="20%">Source Code</th>
+      <th align="center" width="10%">Year</th>
+    </tr>
+    <tr>
+      <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
+      <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> <a href='https://github.com/zhunzhong07/person-re-ranking'> CUHK03-new-protocol </a> </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> </ul></td>
+      <td align="left"> <ul><li> Rank-1: 89.13 mAP: 83.93 </li>
+          <li> Rank-1: 84.02 mAP: 78.28 </li>
+          <li> labeled (Rank-1: 63.93 mAP: 65.05) detected (Rank-1: 64.43 mAP: 64.75) </li>
+          </ul> </td>
+      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
+      <td align="left">2017</td>    
+    </tr>
+  </tbody>
+</table>
 
 ## NLP
 
@@ -198,81 +273,6 @@ Leader Board
 | Research Paper                                                                               | Datasets                                              | Metric                                                                | Source Code                                                                                         | Year                   |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------- |
 | [Globally Normalized Transition-Based Neural Networks](https://arxiv.org/pdf/1603.06042.pdf) | <ul><li>Final CoNLL ’09 dependency parsing </li></ul> | <ul><li> 94.08% UAS accurancy</li> <li>92.15% LAS accurancy</li></ul> | <ul><li>[SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) </li></ul> | <ul><li>2017</li></ul> |
-
-## Computer Vision
-
-### Classification
-
-| Dataset  | Type         | Top-1 accuracy | Method                              | Paper                                                                                                    | Code |
-| -------- | ------------ | -------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
-| ImageNet | ResNet-50    | 78.35%         | ResNet-50+DropBlock+label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
-| ImageNet | Single model | 82.52%         | AmoebaNet-B+DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
-
-### Instance Segmentation
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1703.06870.pdf'>Mask R-CNN</a></td>
-      <td align="left"> <ul><li> COCO  </li></ul></td>
-      <td align="left"> <ul><li> Average Precision: 37.1% </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/Detectron'>Detectron (Official Version)</a> </li><li>  <a href='https://github.com/TuSimple/mx-maskrcnn'>MXNet</a> </li><li>  <a href='https://github.com/matterport/Mask_RCNN'>Keras</a> </li><li>  <a href='https://github.com/CharlesShang/FastMaskRCNN'>TensorFlow </a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
-
-### Visual Question Answering
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1708.02711'>Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge</a></td>
-      <td align="left"> <ul><li> VQA  </li></ul></td>
-      <td align="left"> <ul><li> Overall score: 69 </li></ul> </td>
-      <td align="left"> <ul><li>   <a href=''>NOT FOUND</a> </li></ul> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
-
-### Person Re-identification
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
-      <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> <a href='https://github.com/zhunzhong07/person-re-ranking'> CUHK03-new-protocol </a> </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> </ul></td>
-      <td align="left"> <ul><li> Rank-1: 89.13 mAP: 83.93 </li>
-          <li> Rank-1: 84.02 mAP: 78.28 </li>
-          <li> labeled (Rank-1: 63.93 mAP: 65.05) detected (Rank-1: 64.43 mAP: 64.75) </li>
-          </ul> </td>
-      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
 
 ## Speech
 
