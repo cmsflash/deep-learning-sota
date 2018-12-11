@@ -13,10 +13,17 @@ This summary is categorized into:
 
 ### Classification
 
-| Dataset  | Type         | Top-1 accuracy | Method                              | Paper                                                                                                    | Code |
-| -------- | ------------ | -------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
+| Dataset  | Type         | Top-1 accuracy | Method                                  | Paper                                                                                                    | Code |
+| -------- | ------------ | -------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
 | ImageNet | ResNet-50    | 78.35%         | ResNet-50 + DropBlock + label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
-| ImageNet | Single model | 82.52%         | AmoebaNet-B + DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+| ImageNet | Single model | 82.52%         | AmoebaNet-B + DropBlock                 | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+
+### Object Detection
+
+| Dataset      | Type         | AP   | Method                     | Paper                                                                                          | Code |
+| ------------ | ------------ | ---- | -------------------------- | ---------------------------------------------------------------------------------------------- | ---- |
+| MS-COCO 2017 | ResNet-101   | 43.4 | D-RFCN + SNIP + ResNet-101 | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
+| MS-COCO 2017 | Single model | 45.7 | D-RFCN + SNIP + DPN-98     | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
 
 ### Instance Segmentation
 
