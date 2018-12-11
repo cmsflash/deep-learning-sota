@@ -203,93 +203,10 @@ Leader Board
 
 ### Classification
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1710.09829.pdf'> Dynamic Routing Between Capsules </a></td>
-      <td align="left"> <ul><li> MNIST </li></ul> </td>
-      <td align="left"> <ul><li> Test Error: 0.25±0.005 </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/Sarasra/models/tree/master/research/capsules'>Official Implementation</a> </li><li> <a href='https://github.com/gram-ai/capsule-networks'>PyTorch</a> </li><li> <a href='https://github.com/naturomics/CapsNet-Tensorflow'>Tensorflow</a> </li><li> <a href='https://github.com/XifengGuo/CapsNet-Keras'>Keras</a> </li><li>  <a href='https://github.com/soskek/dynamic_routing_between_capsules'>Chainer</a> </li> <li>  <a href='https://github.com/loretoparisi/CapsNet'>List of all implementations</a> </li>
-          </ul>  </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1102.0183.pdf'> High-Performance Neural Networks for Visual Object Classification </a></td>
-      <td align="left"> <ul><li> NORB </li></ul></td>
-      <td align="left"> <ul><li> Test Error: 2.53 ± 0.40 </li></ul> </td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></ul></li> </td>
-      <td align="left">2011</td>    
-    </tr>
-    <tr>
-      <td><a href='https://openreview.net/pdf?id=S1NHaMW0b'>ShakeDrop regularization </a></td>
-      <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100</li></ul></td>
-      <td align="left"> <ul><li> Test Error: 2.31% </li> <li> Test Error: 12.19% </li></ul> </td>
-      <td align="left"> <ul><li> <a href=''>NOT FOUND</a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1611.05431.pdf'>Aggregated Residual Transformations for Deep Neural Networks </a></td>
-      <td align="left"> <ul><li>  CIFAR-10  </li></ul></td>
-      <td align="left"> <ul><li> Test Error: 3.58% </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/ResNeXt'>PyTorch</a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
-      <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100 </li> <li> Fashion-MNIST </li> </ul></td>
-      <td align="left"> <ul><li> Test Error: 3.08% </li>
-          <li> Test Error: 17.73% </li>
-          <li> Test Error: 3.65% </li>
-          </ul> </td>
-      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1709.07634'> EraseReLU: A Simple Way to Ease the Training of Deep Convolution Neural Networks </a></td>
-      <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100 </li> </ul></td>
-      <td align="left"> <ul><li> Test Error: 3.56% </li>
-          <li> Test Error: 16.53% </li>
-          </ul> </td>
-      <td align="left"> <a href='https://github.com/D-X-Y/EraseReLU'> PyTorch </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1710.09829.pdf'> Dynamic Routing Between Capsules </a></td>
-      <td align="left"> <ul><li> MultiMNIST </li></ul></td>
-      <td align="left"> <ul><li> Test Error: 5% </li></ul> </td>
-      <td align="left"> <ul><li> <a href='https://github.com/gram-ai/capsule-networks'>PyTorch</a> </li><li> <a href='https://github.com/naturomics/CapsNet-Tensorflow'>Tensorflow</a> </li><li> <a href='https://github.com/XifengGuo/CapsNet-Keras'>Keras</a> </li><li>  <a href='https://github.com/soskek/dynamic_routing_between_capsules'>Chainer</a> </li><li>  <a href='https://github.com/loretoparisi/CapsNet'>List of all implementations</a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1707.07012.pdf'>Learning Transferable Architectures for Scalable Image Recognition</a></td>
-      <td align="left"> <ul><li>   ImageNet-1k  </li></ul></td>
-      <td align="left"> <ul><li> Top-1 Error:17.3 </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/tensorflow/models/tree/master/research/slim/nets/nasnet'>Tensorflow</a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-     <tr>
-      <td><a href='https://arxiv.org/pdf/1709.01507.pdf'>Squeeze-and-Excitation Networks </a></td>
-      <td align="left"> <ul><li>   ImageNet-1k  </li></ul></td>
-      <td align="left"> <ul><li> Top-1 Error: 18.68 </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/hujie-frank/SENet'>CAFFE</a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1611.05431.pdf'>Aggregated Residual Transformations for Deep Neural Networks </a></td>
-      <td align="left"> <ul><li>   ImageNet-1k  </li></ul></td>
-      <td align="left"> <ul><li> Top-1 Error: 20.4% </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/ResNeXt'>Torch</a> </li></ul> </td>
-      <td align="left">2016</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset  | Type         | Top-1 accuracy | Method                              | Paper                                                                                                    | Code |
+| -------- | ------------ | -------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
+| ImageNet | ResNet-50    | 78.35%         | ResNet-50+DropBlock+label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+| ImageNet | Single model | 82.52%         | AmoebaNet-B+DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
 
 ### Instance Segmentation
 
