@@ -216,57 +216,23 @@ NEURAL MACHINE TRANSLATION</a></td>
 
 ### Natural Language Inference
 
-| Dataset                                                                               | Type     | Accuracy | Paper                                                                                                                                                                                  | Code |
-| ------------------------------------------------------------------------------------- | -------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Single   | 89.9%    | [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) |      |
-| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
-| [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
+| Dataset                                                                               | Type     | Accuracy | Method | Paper                                                                                                                                                                                  | Code |
+| ------------------------------------------------------------------------------------- | -------- | -------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Single   | 89.9%    | GPT    | [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) |      |
+| [Stanford Natural Language Inference (SNLI)](https://nlp.stanford.edu/projects/snli/) | Emsemble | 90.1%    |        | [Semantic Sentence Matching with Densely-Connected Recurrent and Co-Attentive Information](https://arxiv.org/abs/1805.11360)                                                           |      |
+| [MultiNLI](https://www.kaggle.com/c/multinli-matched-open-evaluation/leaderboard)     | Emsemble | 86.7%    |        | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)                                                                   |      |
 
 ### Question Answering
 
-Leader Board
+| Dataset                                                  | Type         | F1     | Method     | Paper                                                                                                                | Code |
+| -------------------------------------------------------- | ------------ | ------ | ---------- | -------------------------------------------------------------------------------------------------------------------- | ---- |
+| [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/) | Single model | 83.061 | BERT-large | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) |      |
 
-[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
+### Named Entity Recognition
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1810.04805.pdf'> BERT-LARGE (ensemble) </a></td>
-      <td align="left">The Stanford Question Answering Dataset</td>
-      <td align="left"><ul><li> Exact Match: 87.4 </li><li> F1: 93.2 </li></ul></td>
-      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/PyTorch-pretrained-BERT'>PyTorch</a> </td>
-      <td align="left">2018</td>    
-  </tr>
-  </tbody>
-</table>
-
-### Named entity recognition
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1710.11027.pdf'>Named Entity Recognition in Twitter using Images and Text </a></td>
-      <td align="left">Ritter</td>
-      <td align="left"><ul><li> F-measure: 0.59 </li></ul></td>
-      <td align="left"><a href=''>NOT FOUND</a> </td>
-      <td align="left">2017</td>    
-  </tr>
-  </tbody>
-</table>
+| Dataset    | Type         | F1   | Method     | Paper                                                                                                                | Code |
+| ---------- | ------------ | ---- | ---------- | -------------------------------------------------------------------------------------------------------------------- | ---- |
+| CoNLL-2003 | Single model | 92.8 | BERT-large | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) |      |
 
 ### Abstractive Summarization
 
