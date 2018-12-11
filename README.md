@@ -4,7 +4,7 @@ This repository lists the state-of-the-art results for mainstream deep learning 
 
 This summary is categorized into:
 
-- [Computer Vision](https://github.com/cms-flash/deep-learning-sota#computer-vision)
+- [Computer Vision](#computer-vision)
 - [Speech](https://github.com/cms-flash/deep-learning-sota#speech)
 - [NLP](https://github.com/cms-flash/deep-learning-sota#nlp)
 - [Contact](https://github.com/cms-flash/deep-learning-sota#contact)
