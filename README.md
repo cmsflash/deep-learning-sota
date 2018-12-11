@@ -226,7 +226,7 @@ NEURAL MACHINE TRANSLATION</a></td>
 
 | Dataset                                                  | Type         | F1     | Method     | Paper                                                                                                                | Code |
 | -------------------------------------------------------- | ------------ | ------ | ---------- | -------------------------------------------------------------------------------------------------------------------- | ---- |
-| [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/) | Single model | 83.061 | BERT-large | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) |      |
+| [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/) | Single model | 83.061 | BERT-large | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) |      |
 
 ### Named Entity Recognition
 
@@ -249,35 +249,11 @@ NEURAL MACHINE TRANSLATION</a></td>
 
 ## Speech
 
-[Speech SOTA](https://github.com/syhw/wer_are_we)
+### Acoustic Speech Recognition
 
-### ASR
-
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1708.06073.pdf'>The Microsoft 2017 Conversational Speech Recognition System</a></td>
-      <td align="left"> <ul><li> Switchboard Hub5'00  </li></ul></td>
-      <td align="left"> <ul><li> WER: 5.1  </li></ul> </td>
-      <td align="left"> <ul><li>  <a href=''>NOT FOUND</a></li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1801.00059.pdf'>The CAPIO 2017 Conversational Speech Recognition System</a></td>
-      <td align="left"> <ul><li> Switchboard Hub5'00  </li></ul></td>
-      <td align="left"> <ul><li> WER: 5.0  </li></ul> </td>
-      <td align="left"> <ul><li>  <a href=''>NOT FOUND</a></li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset             | Type | WER | Method                         | Paper                                                                                       | Code |
+| ------------------- | ---- | --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ---- |
+| Switchboard Hub5'00 |      | 5.0 | biLSTM + CNN + Dense, 8 models | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) |      |
 
 ## Contact
 
