@@ -251,9 +251,9 @@ NEURAL MACHINE TRANSLATION</a></td>
 
 ### Acoustic Speech Recognition
 
-| Dataset             | Type | WER | Method                         | Paper                                                                                       | Code |
-| ------------------- | ---- | --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ---- |
-| Switchboard Hub5'00 |      | 5.0 | biLSTM + CNN + Dense, 8 models | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) |      |
+| Dataset             | Type     | WER | Method                         | Paper                                                                                       | Code |
+| ------------------- | -------- | --- | ------------------------------ | ------------------------------------------------------------------------------------------- | ---- |
+| Switchboard Hub5'00 | Ensemble | 5.0 | biLSTM + CNN + Dense, 8 models | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) |      |
 
 ## Contact
 
