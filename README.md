@@ -15,8 +15,8 @@ This summary is categorized into:
 
 | Dataset  | Type         | Top-1 accuracy | Method                              | Paper                                                                                                    | Code |
 | -------- | ------------ | -------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
-| ImageNet | ResNet-50    | 78.35%         | ResNet-50+DropBlock+label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
-| ImageNet | Single model | 82.52%         | AmoebaNet-B+DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+| ImageNet | ResNet-50    | 78.35%         | ResNet-50 + DropBlock+label smoothing | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
+| ImageNet | Single model | 82.52%         | AmoebaNet-B + DropBlock               | [DropBlock: A Regularization Method for Convolutional Neural Networks](https://arxiv.org/abs/1810.12890) |      |
 
 ### Instance Segmentation
 
