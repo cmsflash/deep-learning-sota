@@ -27,24 +27,9 @@ This summary is categorized into:
 
 ### Instance Segmentation
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1703.06870.pdf'>Mask R-CNN</a></td>
-      <td align="left"> <ul><li> COCO  </li></ul></td>
-      <td align="left"> <ul><li> Average Precision: 37.1% </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/Detectron'>Detectron (Official Version)</a> </li><li>  <a href='https://github.com/TuSimple/mx-maskrcnn'>MXNet</a> </li><li>  <a href='https://github.com/matterport/Mask_RCNN'>Keras</a> </li><li>  <a href='https://github.com/CharlesShang/FastMaskRCNN'>TensorFlow </a> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset      | Type     | AP   | Method                    | Paper | Code                                                 |
+| ------------ | -------- | ---- | ------------------------- | ----- | ---------------------------------------------------- |
+| MS-COCO 2018 | Ensemble | 48.6 | mmdet + FishNet, 5 models | -     | [PyTorch](https://github.com/open-mmlab/mmdetection) |
 
 ### Visual Question Answering
 
