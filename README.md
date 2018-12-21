@@ -20,37 +20,22 @@ This summary is categorized into:
 
 ### Object Detection
 
-| Dataset      | Type         | AP   | Method                     | Paper                                                                                          | Code |
-| ------------ | ------------ | ---- | -------------------------- | ---------------------------------------------------------------------------------------------- | ---- |
-| MS-COCO 2017 | ResNet-101   | 43.4 | D-RFCN + SNIP + ResNet-101 | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
-| MS-COCO 2017 | Single model | 45.7 | D-RFCN + SNIP + DPN-98     | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
+| Dataset                                                                | Type         | AP   | Method                     | Paper                                                                                          | Code |
+| ---------------------------------------------------------------------- | ------------ | ---- | -------------------------- | ---------------------------------------------------------------------------------------------- | ---- |
+| [MS-COCO 2017](http://cocodataset.org/index.htm#detection-leaderboard) | ResNet-101   | 43.4 | D-RFCN + SNIP + ResNet-101 | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
+| [MS-COCO 2017](http://cocodataset.org/index.htm#detection-leaderboard) | Single model | 45.7 | D-RFCN + SNIP + DPN-98     | [An Analysis of Scale Invariance in Object Detection - SNIP](https://arxiv.org/abs/1711.08189) |      |
 
 ### Instance Segmentation
 
-| Dataset      | Type     | AP   | Method                    | Paper | Code                                                 |
-| ------------ | -------- | ---- | ------------------------- | ----- | ---------------------------------------------------- |
-| MS-COCO 2018 | Ensemble | 48.6 | mmdet + FishNet, 5 models | -     | [PyTorch](https://github.com/open-mmlab/mmdetection) |
+| Dataset                                                                | Type     | AP   | Method                    | Paper | Code                                                 |
+| ---------------------------------------------------------------------- | -------- | ---- | ------------------------- | ----- | ---------------------------------------------------- |
+| [MS-COCO 2018](http://cocodataset.org/index.htm#detection-leaderboard) | Ensemble | 48.6 | mmdet + FishNet, 5 models | -     | [PyTorch](https://github.com/open-mmlab/mmdetection) |
 
 ### Visual Question Answering
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1708.02711'>Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge</a></td>
-      <td align="left"> <ul><li> VQA  </li></ul></td>
-      <td align="left"> <ul><li> Overall score: 69 </li></ul> </td>
-      <td align="left"> <ul><li>   <a href=''>NOT FOUND</a> </li></ul> </li></ul> </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset                              | Type     | Score | Method | Paper                                                                                         | Code                                                  |
+| ------------------------------------ | -------- | ----- | ------ | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [VQA](https://visualqa.org/roe.html) | Ensemble | 72.41 | Pythia | [Pythia v0.1: The Winning  Entry to the VQA Challenge 2018](https://arxiv.org/abs/1807.09956) | [PyTorch](https://github.com/facebookresearch/pythia) |
 
 ### Person Re-identification
 
