@@ -39,27 +39,11 @@ This summary is categorized into:
 
 ### Person Re-identification
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1708.04896'> Random Erasing Data Augmentation </a></td>
-      <td align="left"> <ul><li> <a href='http://www.liangzheng.org/Project/project_reid.html'> Market-1501 </a> </li> <li> <a href='https://github.com/zhunzhong07/person-re-ranking'> CUHK03-new-protocol </a> </li> <li> <a href='https://github.com/layumi/DukeMTMC-reID_evaluation'> DukeMTMC-reID </a> </li> </ul></td>
-      <td align="left"> <ul><li> Rank-1: 89.13 mAP: 83.93 </li>
-          <li> Rank-1: 84.02 mAP: 78.28 </li>
-          <li> labeled (Rank-1: 63.93 mAP: 65.05) detected (Rank-1: 64.43 mAP: 64.75) </li>
-          </ul> </td>
-      <td align="left"> <a href='https://github.com/zhunzhong07/Random-Erasing'> PyTorch </td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset                                                                                                    | Type                    | Rank-1 accuracy | Method                                                                                | Paper                                                                                         | Code |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------- | --------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---- |
+| [Market-1501](http://www.liangzheng.org/Project/state_of_the_art_market1501.html)                          | Supervised single-query | 91.2%           | Pixel-level attention + region-level attention + joint feature learning               | [Harmonious Attention Network for Person Re-Identification](https://arxiv.org/abs/1802.08122) |      |
+| [Market-1501](http://www.liangzheng.org/Project/state_of_the_art_market1501.html)                          | Supervised multi-query  | 93.8%           | Pixel-level attention + region-level attention + joint feature learning + multi-query | [Harmonious Attention Network for Person Re-Identification](https://arxiv.org/abs/1802.08122) |      |
+| [DukeMTMC-reID](https://github.com/layumi/DukeMTMC-reID_evaluation/blob/master/State-of-the-art/README.md) | Supervised single-query | 85.95%          | SPReID                                                                                | [Human Semantic Parsing for Person Re-identification](https://arxiv.org/abs/1804.00216)       |      |
 
 ## NLP
 
