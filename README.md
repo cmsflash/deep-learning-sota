@@ -49,52 +49,10 @@ This summary is categorized into:
 
 ### Language Modelling
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>  
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1711.03953.pdf'>BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL </a></td>
-      <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
-      <td align="left"><ul><li> Perplexity: 47.69 </li><li> Perplexity: 40.68 </li></ul></td>
-      <td align="left"><a href='https://github.com/zihangdai/mos'>PyTorch </a></td>
-      <td align="left">2017</td>   
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1709.07432.pdf'>DYNAMIC EVALUATION OF NEURAL SEQUENCE MODELS </a></td>
-      <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
-      <td align="left"><ul><li> Perplexity: 51.1 </li><li> Perplexity: 44.3 </li></ul></td>
-      <td align="left"><a href='https://github.com/benkrause/dynamic-evaluation'>PyTorch </a></td>
-      <td align="left">2017</td>   
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1708.02182.pdf'>Averaged Stochastic Gradient  Descent <br/> with Weight Dropped LSTM or QRNN </a></td>
-      <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
-      <td align="left"><ul><li> Perplexity: 52.8 </li><li> Perplexity: 52.0 </li></ul></td>
-      <td align="left"><a href='https://github.com/salesforce/awd-lstm-lm'>PyTorch </a></td>
-      <td align="left">2017</td>   
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1711.00066.pdf'>FRATERNAL DROPOUT </a></td>
-      <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
-      <td align="left"><ul><li> Perplexity: 56.8 </li><li> Perplexity: 64.1 </li></ul></td>
-      <td align="left"> <a href='https://github.com/kondiz/fraternal-dropout'> PyTorch </a>  </td>
-      <td align="left">2017</td>   
-    </tr>
-        <tr>
-      <td><a href='https://arxiv.org/pdf/1703.10722.pdf'>Factorization tricks for LSTM networks </a></td>
-      <td align="left">One Billion Word Benchmark</td>
-      <td align="left"> Perplexity:  23.36</td>
-      <td align="left"><a href='https://github.com/okuchaiev/f-lm'>Tensorflow </a></td>
-      <td align="left">2017</td>   
-    </tr>
-  </tbody>
-</table>
+| Dataset        | Type | Perplexity | Method | Paper                                                                                               | Code                                        |
+| -------------- | ---- | ---------- | ------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Penn Tree Bank |      | 47.69      | MoS    | [Breaking the Softmax Bottleneck: A High-Rank RNN Language Model](https://arxiv.org/abs/1711.03953) | [PyTorch](https://github.com/zihangdai/mos) |
+| WikiText-2     |      | 40.68      | MoS    | [Breaking the Softmax Bottleneck: A High-Rank RNN Language Model](https://arxiv.org/abs/1711.03953) | [PyTorch](https://github.com/zihangdai/mos) |
 
 ### Machine Translation
 
