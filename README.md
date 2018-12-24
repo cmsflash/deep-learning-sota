@@ -35,7 +35,7 @@ This summary is categorized into:
 
 | Dataset                              | Type     | Score | Method | Paper                                                                                         | Code                                                  |
 | ------------------------------------ | -------- | ----- | ------ | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [VQA](https://visualqa.org/roe.html) | Ensemble | 72.41 | Pythia | [Pythia v0.1: The Winning  Entry to the VQA Challenge 2018](https://arxiv.org/abs/1807.09956) | [PyTorch](https://github.com/facebookresearch/pythia) |
+| [VQA](https://visualqa.org/roe.html) | Ensemble | 72.41 | Pythia | [Pythia v0.1: The Winning  Entry to the VQA Challenge 2018](https://arxiv.org/abs/1807.09956) | [PyTorch](https://github.com/facebookresearch/pythia) |
 
 ### Person Re-identification
 
@@ -43,7 +43,7 @@ This summary is categorized into:
 | ---------------------------------------------------------------------------------------------------------- | ----------------------- | --------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---- |
 | [Market-1501](http://www.liangzheng.org/Project/state_of_the_art_market1501.html)                          | Supervised single-query | 91.2%           | Pixel-level attention + region-level attention + joint feature learning               | [Harmonious Attention Network for Person Re-Identification](https://arxiv.org/abs/1802.08122) |      |
 | [Market-1501](http://www.liangzheng.org/Project/state_of_the_art_market1501.html)                          | Supervised multi-query  | 93.8%           | Pixel-level attention + region-level attention + joint feature learning + multi-query | [Harmonious Attention Network for Person Re-Identification](https://arxiv.org/abs/1802.08122) |      |
-| [DukeMTMC-reID](https://github.com/layumi/DukeMTMC-reID_evaluation/blob/master/State-of-the-art/README.md) | Supervised single-query | 85.95%          | SPReID                                                                                | [Human Semantic Parsing for Person Re-identification](https://arxiv.org/abs/1804.00216)       |      |
+| [DukeMTMC-reID](https://github.com/layumi/DukeMTMC-reID_evaluation/blob/master/State-of-the-art/README.md) | Supervised single-query | 85.95%          | SPReID                                                                                | [Human Semantic Parsing for Person Re-identification](https://arxiv.org/abs/1804.00216)       |      |
 
 ## NLP
 
@@ -56,47 +56,10 @@ This summary is categorized into:
 
 ### Machine Translation
 
-<table>
-  <tbody>
-    <tr>
-      <th width="30%">Research Paper</th>
-      <th align="center" width="20%">Datasets</th>
-      <th align="center" width="20%">Metric</th>
-      <th align="center" width="20%">Source Code</th>
-      <th align="center" width="10%">Year</th>
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/pdf/1711.02132.pdf'>WEIGHTED TRANSFORMER NETWORK FOR
-MACHINE TRANSLATION</a></td>
-      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
-      <td align="left"> <ul><li>  BLEU: 41.4 </li><li>   BLEU: 28.9 </li></ul> </td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-    <tr>
-      <td><a href='https://arxiv.org/abs/1706.03762'>Attention Is All You Need</a></td>
-      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
-      <td align="left"> <ul><li>  BLEU: 41.0 </li><li>   BLEU: 28.4 </li></ul> </td>
-      <td align="left"> <ul><li><a href='https://github.com/jadore801120/attention-is-all-you-need-PyTorch'>PyTorch</a> </li><li> <a href='https://github.com/tensorflow/tensor2tensor'>Tensorflow</a></li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-     <tr>
-      <td><a href='https://einstein.ai/static/images/pages/research/non-autoregressive-neural-mt.pdf'>NON-AUTOREGRESSIVE
-NEURAL MACHINE TRANSLATION</a></td>
-      <td align="left"> <ul><li> WMT16 Ro→En </li></ul></td>
-      <td align="left"> <ul><li> BLEU: 31.44 </li></ul> </td>
-      <td align="left"><ul><li><a href='https://github.com/salesforce/nonauto-nmt'>PyTorch</a></ul></li></td>
-      <td align="left">2017</td>    
-      </tr>
-          <tr>
-      <td><a href='https://arxiv.org/abs/1703.04887'> Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets</a></td>
-      <td align="left"> <ul><li>NIST02    </li><li>NIST03 </li><li>NIST04 </li><li>NIST05 </li></ul></td>
-      <td align="left"><li>38.74  </li><li>36.01  </li><li> 37.54 </li><li>33.76 </li></ul </td>
-      <td align="left"> <ul><li><a href='https://github.com/ngohoanhkhoa/GAN-NMT'>NMTPY</a> </li></ul></td>
-      <td align="left">2017</td>    
-    </tr>
-  </tbody>
-</table>
+| Dataset                    | Type | BLEU | Method               | Paper                                                                                    | Code |
+| -------------------------- | ---- | ---- | -------------------- | ---------------------------------------------------------------------------------------- | ---- |
+| WMT 2014 English-to-French |      | 41.4 | Weighted Transformer | [Weighted Transformer Network for Machine Translation](https://arxiv.org/abs/1711.02132) |      |
+| WMT 2014 English-to-German |      | 28.9 | Weighted Transformer | [Weighted Transformer Network for Machine Translation](https://arxiv.org/abs/1711.02132) |      |
 
 ### Text Classification
 
