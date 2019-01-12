@@ -1,4 +1,4 @@
-# State-of-the-art results for deep learning tasks
+# Deep Learning SotA
 
 This repository lists the state-of-the-art results for mainstream deep learning tasks. We do our best to keep it up to date. If you do find a task's SotA result is outdated or missing, please raise an issue (with: title of paper, dataset, metric, source code, and year). 
 
