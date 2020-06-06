@@ -1,5 +1,7 @@
 # Deep Learning SotA
 
+*Note: This repository is no longer under support. Please refer to websites such as [Paper with Code](https://paperswithcode.com/sota), which provide more comprehensive and up-to-date information on SOTA models. This repository is in archive mode now.*
+
 This repository lists the state-of-the-art results for mainstream deep learning tasks. We do our best to keep it up to date. If you do find a task's SotA result is outdated or missing, please raise an issue (with: title of paper, dataset, metric, source code, and year). 
 
 This summary is categorized into:
